@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcf_chat", "wcf_chat\wcf_chat.csproj", "{27B6C105-00CD-477D-9FDB-E8D9323C9E50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHost", "ChatHost\ChatHost.csproj", "{9B77ABE2-45DB-44A6-BC45-324DFA024369}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{27B6C105-00CD-477D-9FDB-E8D9323C9E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B6C105-00CD-477D-9FDB-E8D9323C9E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B6C105-00CD-477D-9FDB-E8D9323C9E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B77ABE2-45DB-44A6-BC45-324DFA024369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B77ABE2-45DB-44A6-BC45-324DFA024369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B77ABE2-45DB-44A6-BC45-324DFA024369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B77ABE2-45DB-44A6-BC45-324DFA024369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
