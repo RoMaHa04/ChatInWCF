@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="tbUserName" HorizontalAlignment="Left" Margin="280,16,0,0" TextWrapping="Wrap" Text="User NAme" VerticalAlignment="Top" Width="480" Height="48" TextChanged="TextBox_TextChanged"/>
-        <Button Content="Conect" HorizontalAlignment="Left" Margin="30,16,0,0" VerticalAlignment="Top" Height="48" Width="200" Click="Button_Click"/>
+        <TextBox x:Name="tbUserName" HorizontalAlignment="Left" Margin="280,16,0,0" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Width="480" Height="48" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="BConDiscon" Content="Conect" HorizontalAlignment="Left" Margin="30,16,0,0" VerticalAlignment="Top" Height="48" Width="200" Click="Button_Click"/>
         <ListBox x:Name="lbChat" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="30,79,40,139" SelectionChanged="ListBox_SelectionChanged"/>
-        <TextBox x:Name="thMessage" HorizontalAlignment="Left" Margin="30,326,0,0" TextWrapping="Wrap" Text="Write message" VerticalAlignment="Top" Width="730" Height="70" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="tbMessage" HorizontalAlignment="Left" Margin="30,326,0,0" TextWrapping="Wrap" Text="Write message" VerticalAlignment="Top" Width="730" Height="70" TextChanged="TextBox_TextChanged_1" KeyDown="thMessage_KeyDown"/>
 
     </Grid>
 </Window>
